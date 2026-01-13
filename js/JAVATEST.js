@@ -76,6 +76,17 @@
     
 // console.log(getStringLength("JavaScript")); // 10
 
+// <!-- 5
+// Напиши функцію doubleNumber(num), яка:
+// приймає число;
+// повертає це число, помножене на 2.
+
+// function doubleNumber(num) {
+//     return num * 2
+// }
+
+// console.log(doubleNumber(5)); // 10
+// console.log(doubleNumber(-3)); // -6
 // --------------------СЕРЕДНІ ЗАДАЧКИ------------------------------
 
 // <!-- 1
@@ -133,5 +144,46 @@
 //     return arr
 // }
 
-// console.log(getEvenNumbers([1, 2, 3, 4, 5, 6])); 
+// console.log(getEvenNumbers([1, 2, 3, 4, 5, 6]));
 // [2, 4, 6]
+
+// <!-- 4
+// Напиши функцію reverseArray(arr), яка:
+// приймає масив;
+// повертає новий масив у зворотному порядку;
+// не використовуй reverse().
+
+// function reverseArray(arr) {
+//     let reversNumber = []
+
+//     for (let i = arr.length - 1; i >= 0; i--) {
+//         reversNumber.push(arr[i]);
+//     }
+// return reversNumber
+
+// }
+
+
+
+// console.log(reverseArray([1, 2, 3, 4]));
+// [4, 3, 2, 1]
+
+// <!-- 4
+
+// Напиши функцію countPositive(numbers), яка:
+// приймає масив чисел;
+// повертає кількість чисел більших за 0.
+
+// function countPositive(numbers) {
+//     let isPositive = 0
+
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (numbers[i] > 0)
+//             isPositive++
+//     }
+//     return isPositive
+// }
+
+
+// console.log(countPositive([-1, 0, 2, 5, -3, 7]));
+// 3
